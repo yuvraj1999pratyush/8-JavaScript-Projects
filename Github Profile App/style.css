@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300&family=Roboto+Slab:wght@300;400;500&display=swap');
+
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+
+    font-family: 'Roboto Flex', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+
+    background-color: #0a0a48;
+    background-image: linear-gradient(315deg, #2a2a72 0%, #05202f 74%);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-weight: normal;
+}
+
+input{
+    background-color: #2f0439;
+    background-image: linear-gradient(315deg, #2c1c58 0%, #3b1e69 74%);
+    border-radius: 10px;
+    border: none;
+    padding: 1rem;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-family: inherit;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    border: 2px solid white;
+    
+}
+
+.card{
+    background-color: #2f0439;
+    background-image: linear-gradient(315deg, #100430 0%, #240653 74%);
+    display: flex;
+    padding: 3rem;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    max-width: 900px;
+    width: 900px;
+    
+}
+
+.img-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.avatar{
+    border: 3px solid white;
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.user-info{
+    margin-left: 5rem;
+    color: #eee;
+    font-size: 1.3rem;
+}
+
+.user-info h2{
+    margin-top: 0;
+    font-size: 2rem;
+    font-weight: normal;
+    
+}
+
+.user-info ul{
+    display: flex;
+    justify-content: space-between;
+    max-width: 400px;
+    list-style-type: none;
+    padding: 0;  
+    
+    
+    
+}
+
+.user-info li{
+    font-weight: normal;
+    font-size: 2rem;
+}
+
+input::placeholder{
+    color: #eee;
+    font-size: 1.2rem;
+}
+
+input:focus{
+    outline: none;
+}
+
+strong{
+    font-size: 1rem;
+    letter-spacing: 2px;
+}
+
+.repo{
+    background-color: #42043a;
+    background-image: linear-gradient(315deg, #4b0855 0%, #6a1474 74%);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+    display: inline-block;
+    color: white;
+    padding: 0.5rem 0.5rem;
+    margin-right: 0.6rem;
+    margin-bottom: 0.6rem;
+    text-decoration: none;
+    font-size: 0.8rem;
+}

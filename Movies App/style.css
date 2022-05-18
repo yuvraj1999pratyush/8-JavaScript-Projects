@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500&display=swap');
+
+*{
+    box-sizing: border-box;
+
+}
+
+body{
+    
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+    background-color: #22254b;
+    
+}
+
+.movie{
+    border-radius: 3px;
+    box-shadow: 0 4px 5px rgba(0,0,0,0.2);
+    width: 400px;
+    background-color: #373b69;
+    margin: 2rem;
+    overflow: hidden;
+    position: relative;
+    
+}
+
+.movie img{
+    width: 100%;
+
+}
+
+.movie-info{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1rem 1rem;
+    color: #ffd556;
+    letter-spacing: 0.5px;
+    align-items: center;
+}
+
+.movie-info h3{
+    margin: 0;
+    font-weight: normal;
+    margin-left: 5px;
+}
+
+.movie-info span{
+    background-color: #22254b;
+    padding: 0.25rem 0.5rem;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.green{
+    color: rgb(42, 251, 42);
+    font-size: 1.2rem;
+    background-color: #22254b;
+    padding: 0.25rem 0.5rem;
+    border-radius: 5px;
+}
+
+.orange{
+    color: rgb(255, 191, 71);
+    font-size: 1.2rem;
+    background-color: #22254b;
+    padding: 0.25rem 0.5rem;
+    border-radius: 5px;
+}
+
+.red{
+    color: rgb(253, 66, 66);
+    font-size: 1.2rem;
+    background-color: #22254b;
+    padding: 0.25rem 0.5rem;
+    border-radius: 5px;
+}
+.pop-up{
+    font-size: 1.5rem;
+    font-weight: normal;
+    
+}
+
+header{
+    background-color: #373b69;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: flex-end;
+    letter-spacing: 0.5px;
+    color: #ffd556;
+}
+
+.search{
+    padding: 0.5rem 1.5rem;
+    border-radius: 50px;
+    background-color: transparent;
+    border: 2px solid #22254b;
+    width: 280px;
+    font-family: inherit;
+    color:#ffd556;
+    font-size: 1rem;
+}
+
+.search::placeholder{
+    color: #b5b8df;
+    font-size: 1rem;
+    text-align: center;
+    
+}
+
+.search:focus{
+    outline: none;
+    background-color: #22254b;
+}
+
+.overview {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding: 2rem;
+    background-color:#373b69;
+    transform: translateY(100%);
+    transition: transform 0.3s ease-in;
+    color: #ffd556;
+    font-weight: normal;
+    max-height: 100%;
+    overflow: auto;
+}
+
+.movie:hover .overview{
+    transform: translateY(0);
+}
+
+.description{
+    text-align: justify;
+}

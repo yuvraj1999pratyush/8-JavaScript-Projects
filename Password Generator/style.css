@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500&display=swap');
+
+*{
+    box-sizing: border-box;
+
+}
+
+body{
+
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+
+    background-color: rebeccapurple;
+    color: rgb(154, 116, 192);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+
+
+.pw-container{
+    background-color: rgb(29, 1, 33);
+    width:600px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+
+.pw-header{
+    padding: 1rem;
+    display: flex;
+    margin: 5px;
+}
+
+.pw-body{
+    padding: 1rem;
+}
+
+.pw{
+    height: 50px;
+    width: 100%;
+    background-color: rebeccapurple;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    font-size: 2rem;
+    padding: 1rem;
+    height: 70px;
+    
+
+}
+
+.pw button{
+    background-color: rgb(29, 1, 33);
+    border: none;
+    padding: 0.8rem 0.8rem;
+    margin-left: 5px;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    color: white;
+    margin-left: 5px;
+    cursor: pointer; 
+    
+    
+}
+
+.pw p{
+    overflow:auto;
+    color: #ecb602;
+    margin-left: 5px;
+    word-wrap:initial;
+}
+
+
+
+.form-control{
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5rem;
+}
+
+.generate{
+    color: rgb(29, 1, 33);
+    background-color: #ecb602;
+    font-size: 1.8rem;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25%;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}

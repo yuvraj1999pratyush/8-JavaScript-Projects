@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500&display=swap');
+
+*{
+    box-sizing: border-box;
+
+}
+
+body{
+    background-image: url('./sunbeam.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 1000px 1400px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+
+    
+   
+    color:yellow;
+
+}
+
+.countdown-container{
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1{
+    font-weight: normal;
+    font-size: 4rem;
+    margin-top: 300px;
+}
+
+.big-test{
+    font-size: 9rem;
+    line-height: 1;
+    margin: 10px 2rem;
+}
+
+.countdown-element{
+    text-align: center;
+}
+
+.countdown-element span{
+    font-size: 1.5rem;
+}
